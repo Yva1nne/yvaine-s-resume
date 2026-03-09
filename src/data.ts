@@ -49,10 +49,10 @@ export const experiences: Experience[] = [
       { value: '1', label: '国家级奖项', subtext: '华为杯全国一等奖', symbol: '项' }
     ],
     retrospective: [
-      { title: '商业价值落地', desc: '成功落地，将人工标注成本降低 90%。该项目荣获“华为杯”中国研究生人工智能创新大赛全国一等奖。', type: 'positive' },
+      { title: '商业价值落地', desc: '成功落地，将人工标注成本降低 90%。该项目荣获"华为杯"中国研究生人工智能创新大赛全国一等奖。', type: 'positive' },
       { title: '技术与业务平衡', desc: '在设计算法时，充分考虑了精度与产线效率的平衡，确保了系统的实用性。', type: 'positive' }
     ],
-    images: []
+    images: ['/yvaine-s-resume/images/projects/prj01/缺陷检索网络架构.png', '/yvaine-s-resume/images/projects/prj01/缺陷分析界面.png']
   },
   {
     id: 'PRJ_02',
