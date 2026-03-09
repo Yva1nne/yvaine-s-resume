@@ -15,7 +15,7 @@ export default function Home({ onSelect }: HomeProps) {
         <aside className="lg:col-span-4 border-b-2 lg:border-b-0 lg:border-r-2 border-black flex flex-col bg-gray-50 h-full">
           <div className="aspect-square border-b-2 border-black relative overflow-hidden group bg-white">
             <div className="absolute inset-0 pattern-grid flex items-center justify-center">
-              <img src="/assets/profile.jpg" alt="Profile" className="w-full h-full object-cover" />
+              <img src="/yvaine-s-resume/assets/profile.jpg" alt="Profile" className="w-full h-full object-cover" />
             </div>
             <div className="absolute top-4 right-4 bg-white border border-black p-1 shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]">
               <i className="ph ph-user-circle text-2xl"></i>
