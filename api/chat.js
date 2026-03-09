@@ -7,7 +7,7 @@ export default async function handler(req, res) {
   // 1. 配置 CORS (允许跨域请求)
   // 这是必须的，因为你的前端在 GitHub Pages (域名A)，后端在 Vercel (域名B)
   res.setHeader('Access-Control-Allow-Credentials', true);
-  res.setHeader('Access-Control-Allow-Origin', '*'); // 部署后建议把 '*' 改成你的 GitHub Pages 域名，例如 'https://yourname.github.io'
+  res.setHeader('Access-Control-Allow-Origin', 'https://yva1nne.github.io/yvaine-s-resume/'); 
   res.setHeader('Access-Control-Allow-Methods', 'GET,OPTIONS,PATCH,DELETE,POST,PUT');
   res.setHeader('Access-Control-Allow-Headers', 'X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version');
 
