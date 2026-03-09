@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+html {
+    font-size: 18px; /* 从默认 16px 增加到 18px，整体字体放大约 12% */
+}
+
 body {
     font-family: 'Space Mono', monospace;
     background-color: #d0dde8;
