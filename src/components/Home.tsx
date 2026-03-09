@@ -60,8 +60,8 @@ export default function Home({ onSelect }: HomeProps) {
             <div className="grid md:grid-cols-2 gap-6 mb-8">
               <div className="border-2 border-black p-6 shadow-[6px_6px_0px_0px_rgba(0,0,0,0.15)] bg-gray-50 hover:shadow-[4px_4px_0px_0px_rgba(77,168,199,1)] transition-shadow">
                 <h3 className="font-bold text-xl leading-tight mb-2">浙江大学</h3>
-                <p className="text-xs font-bold text-[#4da8c7] mb-4 tracking-wide">电子信息（集成电路工程） 硕士</p>
-                <p className="text-xs text-gray-600 mb-6 line-clamp-2">主修课程：人工智能辅助集成电路制造（97），集成电路良率分析导论（98）等。</p>
+                <p className="text-sm font-bold text-[#4da8c7] mb-4 tracking-wide">电子信息（集成电路工程） 硕士</p>
+                <p className="text-sm text-gray-600 mb-6 line-clamp-2">主修课程：人工智能辅助集成电路制造（97），集成电路良率分析导论（98）等。</p>
                 <div className="flex justify-between items-end border-t-2 border-dashed border-gray-300 pt-4">
                   <span className="text-xs font-bold text-gray-500">状态：在读</span>
                   <span className="text-sm font-bold bg-black text-white px-3 py-1 border border-black">2024.9-至今</span>
@@ -69,8 +69,8 @@ export default function Home({ onSelect }: HomeProps) {
               </div>
               <div className="border-2 border-black p-6 shadow-[6px_6px_0px_0px_rgba(0,0,0,0.15)] bg-gray-50 hover:shadow-[4px_4px_0px_0px_rgba(77,168,199,1)] transition-shadow">
                 <h3 className="font-bold text-xl leading-tight mb-2">浙江大学</h3>
-                <p className="text-xs font-bold text-[#4da8c7] mb-4 tracking-wide">电子科学与技术 本科</p>
-                <p className="text-xs text-gray-600 mb-6 line-clamp-2">主修课程：边缘计算开发实践（5.0），物联网系统设计（4.5），信号与系统（4.8）等。</p>
+                <p className="text-sm font-bold text-[#4da8c7] mb-4 tracking-wide">电子科学与技术 本科</p>
+                <p className="text-sm text-gray-600 mb-6 line-clamp-2">主修课程：边缘计算开发实践（5.0），物联网系统设计（4.5），信号与系统（4.8）等。</p>
                 <div className="flex justify-between items-end border-t-2 border-dashed border-gray-300 pt-4">
                   <span className="text-xs font-bold text-gray-500">状态：已毕业</span>
                   <span className="text-sm font-bold bg-black text-white px-3 py-1 border border-black">2020.9-2024.6</span>
@@ -84,29 +84,29 @@ export default function Home({ onSelect }: HomeProps) {
                 <div className="flex items-start gap-4 group">
                   <span className="text-xs font-bold border border-black px-2 py-1 bg-white group-hover:bg-[#4da8c7] group-hover:text-white transition-colors">01</span>
                   <div>
-                    <p className="text-sm font-bold leading-none mb-1 group-hover:text-[#4da8c7] transition-colors">全国一等奖</p>
-                    <p className="text-xs text-gray-500">“华为杯”第七届中国研究生人工智能创新大赛</p>
+                    <p className="text-base font-bold leading-none mb-1 group-hover:text-[#4da8c7] transition-colors">全国一等奖</p>
+                    <p className="text-sm text-gray-500">"华为杯"第七届中国研究生人工智能创新大赛</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4 group">
                   <span className="text-xs font-bold border border-black px-2 py-1 bg-white group-hover:bg-[#4da8c7] group-hover:text-white transition-colors">02</span>
                   <div>
-                    <p className="text-sm font-bold leading-none mb-1 group-hover:text-[#4da8c7] transition-colors">全国三等奖</p>
-                    <p className="text-xs text-gray-500">2025 中国研究生创“芯”大赛·EDA 精英挑战赛</p>
+                    <p className="text-base font-bold leading-none mb-1 group-hover:text-[#4da8c7] transition-colors">全国三等奖</p>
+                    <p className="text-sm text-gray-500">2025 中国研究生创"芯"大赛·EDA 精英挑战赛</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4 group">
                   <span className="text-xs font-bold border border-black px-2 py-1 bg-white group-hover:bg-[#4da8c7] group-hover:text-white transition-colors">03</span>
                   <div>
-                    <p className="text-sm font-bold leading-none mb-1 group-hover:text-[#4da8c7] transition-colors">银奖</p>
-                    <p className="text-xs text-gray-500">“建行杯”第八届浙江省国际“互联网+”大学生创新创业大赛</p>
+                    <p className="text-base font-bold leading-none mb-1 group-hover:text-[#4da8c7] transition-colors">银奖</p>
+                    <p className="text-sm text-gray-500">"建行杯"第八届浙江省国际"互联网+"大学生创新创业大赛</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4 group">
                   <span className="text-xs font-bold border border-black px-2 py-1 bg-white group-hover:bg-[#4da8c7] group-hover:text-white transition-colors">04</span>
                   <div>
-                    <p className="text-sm font-bold leading-none mb-1 group-hover:text-[#4da8c7] transition-colors">校级荣誉</p>
-                    <p className="text-xs text-gray-500">浙江大学优秀研究生，校级社会实践先进个人，优秀毕业论文等</p>
+                    <p className="text-base font-bold leading-none mb-1 group-hover:text-[#4da8c7] transition-colors">校级荣誉</p>
+                    <p className="text-sm text-gray-500">浙江大学优秀研究生，校级社会实践先进个人，优秀毕业论文等</p>
                   </div>
                 </div>
               </div>
@@ -127,8 +127,8 @@ export default function Home({ onSelect }: HomeProps) {
                     <h3 className="font-bold text-lg uppercase group-hover:text-[#4da8c7] transition-colors">{internship.title}</h3>
                     <span className="text-[10px] font-bold bg-white border border-black px-2 py-0.5 shadow-[2px_2px_0px_0px_rgba(0,0,0,0.1)]">{internship.date}</span>
                   </div>
-                  <p className="text-xs font-bold text-gray-500 mb-3 uppercase tracking-wide">{internship.role} | {internship.company}</p>
-                  <ul className="text-xs text-gray-600 list-disc list-inside space-y-1 mb-3 marker:text-[#4da8c7]">
+                  <p className="text-sm font-bold text-gray-500 mb-3 uppercase tracking-wide">{internship.role} | {internship.company}</p>
+                  <ul className="text-sm text-gray-600 list-disc list-inside space-y-1 mb-3 marker:text-[#4da8c7]">
                     {internship.contributions.slice(0, 2).map((c, i) => (
                       <li key={i}>{c}</li>
                     ))}
@@ -164,7 +164,7 @@ export default function Home({ onSelect }: HomeProps) {
                   <span key={i} className="text-[10px] border border-gray-400 px-1.5 py-0.5 text-gray-600 font-bold">{tag}</span>
                 ))}
               </div>
-              <p className="text-xs text-gray-600 mb-6 flex-grow line-clamp-3 font-medium">{project.shortDesc}</p>
+              <p className="text-sm text-gray-600 mb-6 flex-grow line-clamp-3 font-medium">{project.shortDesc}</p>
               <button onClick={() => onSelect(project.id)} className="w-full border-2 border-black py-3 text-xs font-bold hover:bg-black hover:text-white transition-colors flex items-center justify-center gap-2 group/btn">
                 查看详情 <i className="ph-bold ph-arrow-right group-hover/btn:translate-x-1 transition-transform"></i>
               </button>
